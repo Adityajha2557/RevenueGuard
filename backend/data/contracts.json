@@ -1,0 +1,37 @@
+[
+  {
+    "id": "C-102",
+    "customerId": "CUS-001",
+    "monthlyValue": 100000,
+    "approvedDiscountPercent": 10,
+    "currency": "INR"
+  },
+  {
+    "id": "C-394",
+    "customerId": "CUS-004",
+    "monthlyValue": 120000,
+    "approvedDiscountPercent": 12,
+    "currency": "INR"
+  },
+  {
+    "id": "C-103",
+    "customerId": "CUS-002",
+    "monthlyValue": 75000,
+    "approvedDiscountPercent": 15,
+    "currency": "INR"
+  },
+  {
+    "id": "TGL-ORD-2026-0091",
+    "customerId": "CUS-005",
+    "monthlyValue": 1450,
+    "approvedDiscountPercent": 8,
+    "currency": "USD"
+  },
+  {
+    "id": "C-592",
+    "customerId": "CUS-004",
+    "monthlyValue": 120000,
+    "approvedDiscountPercent": 12,
+    "currency": "INR"
+  }
+]

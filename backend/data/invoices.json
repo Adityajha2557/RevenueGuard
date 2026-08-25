@@ -1,0 +1,47 @@
+[
+  {
+    "id": "INV-8821",
+    "customerId": "CUS-001",
+    "date": "2026-06-01",
+    "amount": 70000,
+    "discountPercent": 30,
+    "paidAmount": 70000,
+    "status": "paid"
+  },
+  {
+    "id": "INV-8822",
+    "customerId": "CUS-001",
+    "date": "2026-07-01",
+    "amount": 70000,
+    "discountPercent": 30,
+    "paidAmount": 70000,
+    "status": "paid"
+  },
+  {
+    "id": "INV-8823",
+    "customerId": "CUS-001",
+    "date": "2026-08-01",
+    "amount": 70000,
+    "discountPercent": 30,
+    "paidAmount": 70000,
+    "status": "paid"
+  },
+  {
+    "id": "INV-9001",
+    "customerId": "CUS-002",
+    "date": "2026-08-01",
+    "amount": 63750,
+    "discountPercent": 15,
+    "paidAmount": 63750,
+    "status": "paid"
+  },
+  {
+    "id": "INV-9002",
+    "customerId": "CUS-002",
+    "date": "2026-07-01",
+    "amount": 63750,
+    "discountPercent": 15,
+    "paidAmount": 60000,
+    "status": "partial"
+  }
+]

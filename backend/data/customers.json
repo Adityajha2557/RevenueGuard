@@ -1,0 +1,26 @@
+[
+  {
+    "id": "CUS-001",
+    "name": "Acme Corp",
+    "email": "finance@acmecorp.example",
+    "industry": "Unknown"
+  },
+  {
+    "id": "CUS-004",
+    "name": "Globex Industries Pvt. Ltd.",
+    "email": "finance@globexindustriespvtltd.example",
+    "industry": "Unknown"
+  },
+  {
+    "id": "CUS-002",
+    "name": "Nova Retail",
+    "email": "finance@novaretail.example",
+    "industry": "Unknown"
+  },
+  {
+    "id": "CUS-005",
+    "name": "Titan Global Logistics Inc.",
+    "email": "finance@titangloballogisticsinc.example",
+    "industry": "Unknown"
+  }
+]
