@@ -20,9 +20,9 @@
 
 ```
 ┌─────────────────┐      ┌──────────────────────┐      ┌─────────────────┐
-│   Frontend        │      │   Backend (Express)    │      │   Google Gemini   │
+│   Frontend        │    │   Backend (Express)       │   Google Gemini   │
 │                    │      │                        │      │                    │
-│  React/TanStack    │─────▶│  POST /api/investigate │─────▶│  gemini-3.7-flash  │
+│  React/TanStack    │─────▶│  POST /api/investigate│─────▶│  gemini-3.7-flash  │
 │  or                │      │                        │      │  (+ 2 fallback     │
 │  Streamlit          │      │  1. financialTools.ts  │      │   models raced      │
 │  dashboard          │◀─────│     (deterministic)    │◀─────│   in parallel)      │
@@ -212,7 +212,7 @@ The import pipeline has been stress-tested against:
 
 ## 📄 License
 
-MIT (or update to your preferred license)
+All rights belong to the owner of this repo
 
 ---
 
