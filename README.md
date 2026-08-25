@@ -188,7 +188,68 @@ Basic liveness check.
 - **Graceful data-gap handling:** investigating a customer with no contract or invoice data returns a clean error rather than crashing.
 
 ---
+RevenueGuard AI — Full Dependency List
+========================================
 
+This is a reference list of everything the project uses. It's documentation,
+not an installer — run install.ps1 (Windows) to actually install these,
+or use the commands below manually.
+
+--------------------------------------------------
+BACKEND (Node.js / npm) — run inside backend/
+--------------------------------------------------
+Install command:
+    npm install
+
+Runtime dependencies:
+    @google/genai       — Gemini API SDK
+    express              — web server
+    cors                 — cross-origin request handling
+    dotenv               — loads .env into process.env
+    xlsx                 — Excel file parsing (invoice import)
+    mammoth              — Word (.docx) text extraction (contract import)
+    pdf-parse            — PDF text extraction (contract import)
+    zod                  — schema validation
+
+Dev dependencies:
+    typescript
+    tsx                  — run TypeScript directly without a build step
+    @types/node
+    @types/express
+    @types/cors
+
+--------------------------------------------------
+FRONTEND — React/TanStack (Node.js / npm) — run inside frontend/
+--------------------------------------------------
+Install command:
+    npm install
+
+(Uses the project's own package.json — Vite, TanStack Router/Query,
+Tailwind, shadcn/ui, lucide-react, sonner, etc. Already defined in
+frontend/package.json from the original scaffold.)
+
+--------------------------------------------------
+DASHBOARD — Streamlit (Python / pip) — run inside dashboard/
+--------------------------------------------------
+Install command:
+    pip install -r requirements.txt
+
+Dependencies:
+    streamlit  >=1.38    — dashboard framework
+    requests   >=2.31    — HTTP calls to the backend API
+
+--------------------------------------------------
+ENVIRONMENT VARIABLES (backend/.env — not installed, must be created manually)
+--------------------------------------------------
+GEMINI_API_KEY   — your Gemini API key from https://aistudio.google.com/apikey
+GEMINI_MODEL     — e.g. gemini-3.7-flash
+PORT             — e.g. 3001
+
+--------------------------------------------------
+PREREQUISITES (installed separately, not via npm/pip)
+--------------------------------------------------
+Node.js  v18 or newer   — https://nodejs.org
+Python   3.9 or newer   — https://python.org (only needed for the dashboard)
 ## 🧪 Testing edge cases
 
 The import pipeline has been stress-tested against:
